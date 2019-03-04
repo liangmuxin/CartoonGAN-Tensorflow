@@ -14,7 +14,6 @@ def parse_args():
 
 def make_edge_smooth(dataset_name, img_size) :
     check_folder('./dataset/{}/{}'.format(dataset_name, 'trainB_smooth'))
-
     file_list = glob('./dataset/{}/{}/*.*'.format(dataset_name, 'trainB'))
     save_dir = './dataset/{}/trainB_smooth'.format(dataset_name)
 
